@@ -1,0 +1,15 @@
+:root {
+    --theme-color: #e0961f;
+    --light-color: #f5ede1;
+    --dark-color: #1a1918;
+    --silver-color: #b1a593;
+    --grey-color: #49443c;
+    --basic-font: Verdana, Geneva, Tahoma, sans-serif;
+    --readable-font: 'Noto Serif', serif;
+    --monospace-font: 'Courier New', Courier, monospace;
+}
+body {
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-family: var(--basic-font);
+}
