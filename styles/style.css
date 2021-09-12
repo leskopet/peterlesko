@@ -1,7 +1,7 @@
 :root {
     --theme-color: #e0961f;
     --light-color: #f3eee6;
-    --dark-color: #1a1918;
+    --dark-color: #272624;
     --silver-color: #b1a593;
     --grey-color: #49443c;
     --basic-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,4 +12,21 @@ body {
     background: var(--light-color);
     color: var(--dark-color);
     font-family: var(--basic-font);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header, footer {
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 10px;
+}
+header {
+    font-size: 1.2em;
+}
+footer {
+    font-size: 0.8em;
 }
