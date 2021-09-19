@@ -20,7 +20,7 @@ body {
 }
 header, footer {
     background: var(--dark-color);
-    color: var(--silver-color);
+    color: var(--light-color);
     text-align: center;
     padding: 10px;
 }
@@ -29,7 +29,7 @@ header {
     border-bottom: var(--theme-color) solid 2px;
 }
 header h1 {
-    text-shadow: var(--theme-color) 1px 1px 1px;
+    text-shadow: var(--theme-color) 2px 2px 2px;
 }
 footer {
     font-size: 0.8em;
