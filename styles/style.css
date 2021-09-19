@@ -84,4 +84,10 @@ section .desc ul {
     section div {
         max-width: 45%;
     }
+    section:nth-child(2n+0) .desc {
+        order: 1;
+    }
+    section:nth-child(2n+0) .img-container {
+        order: 2;
+    }
 }
