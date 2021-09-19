@@ -47,8 +47,12 @@ section {
     justify-content: space-around;
     padding: 2%;
 }
+section .img-container {
+    height: 100%;
+}
 section img {
-    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
 }
 section .desc {
     padding: 5%;
@@ -66,10 +70,7 @@ section .desc p {
     font-size: 1.1em;
 }
 @media screen and (min-width: 681px) {
-    section {
-        height: 400px;
-    }
-    section .desc {
+    section div {
         max-width: 45%;
     }
 }
